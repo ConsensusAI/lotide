@@ -9,6 +9,9 @@ const assertEqual = function(actual, expected) {
 const countLetters = function(sentence) {
   let countedLetters = {};
   for (let letter of sentence) {
+    if (letter === " ") {
+      continue;
+    }
     if (countedLetters[letter]) {
       countedLetters[letter] += 1;
     } else {
@@ -22,3 +25,4 @@ const countLetters = function(sentence) {
 let test = "lighthouse in the house";
 let resultTest = countLetters(test);
 assertEqual(resultTest["e"], 3);
+console.log(resultTest);

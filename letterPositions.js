@@ -28,7 +28,7 @@ const assertArraysEqual = function(originalArray, comparedArray) {
 const letterPositions = function(sentence) {
   let positions = {};
   let i = 0;
-  for (letter of sentence) {
+  for (let letter of sentence) {
     if (letter === " ") {
       i++;
       continue;

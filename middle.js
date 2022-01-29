@@ -26,7 +26,7 @@ const middle = (array) => {
     middleArray.push(array[(array.length / 2) - 1], array[array.length / 2]);
   }
   return middleArray;
-}
+};
 
 // Test Code
 let testArray = [1, 2, 3, 4, 5, 6];
