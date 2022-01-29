@@ -14,15 +14,15 @@ const eqArrays = function(array1, array2) {
     }
   }
   return equality;
-}
+};
 
 const assertArraysEqual = function(originalArray, comparedArray) {
   if (eqArrays(originalArray, comparedArray)) {
-    console.log(`✅✅✅ Assertion Passed: ${originalArray} === ${comparedArray}`)
+    console.log(`✅✅✅ Assertion Passed: ${originalArray} === ${comparedArray}`);
   } else if (!eqArrays(originalArray, comparedArray)) {
     console.log(`🛑🛑🛑 Assertion Failed: ${originalArray} !== ${comparedArray}`);
   }
-}
+};
 
 const without = function(source, itemsToRemove) {
   let filteredArray = [];
@@ -39,7 +39,7 @@ const without = function(source, itemsToRemove) {
     removable = false;
   }
   return filteredArray;
-}
+};
 
 let numbers = [9, 15, "hello", true, false, true, "hell"];
 let garbage = [15, true];

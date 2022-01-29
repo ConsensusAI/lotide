@@ -6,15 +6,15 @@ const eqArrays = function(array1, array2) {
     }
   }
   return equality;
-}
+};
 
 const assertArraysEqual = function(originalArray, comparedArray) {
   if (eqArrays(originalArray, comparedArray)) {
-    console.log(`✅✅✅ Assertion Passed: ${originalArray} === ${comparedArray}`)
+    console.log(`✅✅✅ Assertion Passed: ${originalArray} === ${comparedArray}`);
   } else if (!eqArrays(originalArray, comparedArray)) {
     console.log(`🛑🛑🛑 Assertion Failed: ${originalArray} !== ${comparedArray}`);
   }
-}
+};
 
 assertArraysEqual(["1", "2", "3"], ["1", "2", 3]);
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
