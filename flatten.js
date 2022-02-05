@@ -30,6 +30,7 @@ const flatten = (array) => {
   return flattenedArray;
 };
 
+module.exports = flatten;
 // Test Code
 let testArray = [1, 2, ["hello", "test", "array"], 3, 4, 5];
 let expectedArray = [1, 2, "hello", "test", "array", 3, 4, 5];

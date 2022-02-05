@@ -41,6 +41,7 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
+module.exports = assertObjectsEqual;
 //Test
 const james = {name: "James", age: 22};
 const jack = {name: "Jack", age: 27};

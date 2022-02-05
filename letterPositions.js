@@ -44,6 +44,7 @@ const letterPositions = function(sentence) {
   return positions;
 };
 
+module.exports = letterPositions;
 //Test
 let test = "hello";
 let testResult = letterPositions(test);

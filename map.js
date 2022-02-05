@@ -24,6 +24,7 @@ const map = function(array, callback) {
   return results;
 };
 
+module.exports = map;
 //Test
 const words = ["ground", "control", "to", "major", "tom"];
 const results1 = map(words, word => word[0]);

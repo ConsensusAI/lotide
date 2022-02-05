@@ -21,6 +21,7 @@ const countLetters = function(sentence) {
   return countedLetters;
 };
 
+module.exports = countLetters;
 //Test
 let test = "lighthouse in the house";
 let resultTest = countLetters(test);

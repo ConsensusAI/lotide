@@ -41,6 +41,7 @@ const without = function(source, itemsToRemove) {
   return filteredArray;
 };
 
+module.exports = without;
 let numbers = [9, 15, "hello", true, false, true, "hell"];
 let garbage = [15, true];
 let goal = [9, "hello", false, "hell"];
