@@ -1,0 +1,6 @@
+Press i to insert text at cursor.
+Press a to insert text after cursor.
+Y copies a line of text to the buffer.
+P pastes it to the cursor's current position.
+dd will delete a whole line of text and cut it to the buffer.
+yy copies a whole line of text.
