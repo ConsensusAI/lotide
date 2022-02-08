@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@consensusai/lotide",
   "version": "1.0.0",
-  "description": "library of useful functions",
+  "description": "Mini clone of the Lodash library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/ConsensusAI/lotide.git"
   },
-  "author": "Ammad, LHL",
+  "author": {
+    "name": "Malik Ammad Iqbal",
+    "email": "malik.iqbal@hotmail.ca",
+    "url": "https://github.com/ConsensusAI"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ConsensusAI/lotide/issues"
@@ -22,5 +26,8 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^9.2.0"
+  },
+  "dependencies": {
+    "my-package": "^0.0.0"
   }
 }
